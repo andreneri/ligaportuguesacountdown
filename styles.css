@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-shadow: 4px 4px black;
     color: white;
+    flex-wrap: wrap;
 }
 
 body {
