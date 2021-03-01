@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-shadow: 4px 4px black;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-image: url('./resources/sporting.jpg');
+    background-size: cover;
+    background-blend-mode:hue;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.time-container {
+    display: flex;
+    position: center;
+    margin-top: 5%;
+    font-size: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 375%;
+}
+
+.title {
+    display: flex;
+    font-size: normal;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.big-text {
+    font-weight: bolder;
+    line-height: 1rem;
+    margin: 4rem;
+    height: 6rem;
+    margin-top: 10%;
+}
+
+/* dias/horas/minutos/segundos */
+.countdown-el span {
+    margin: 5rem;
+    font-size: 4rem;
+}
